@@ -58,63 +58,6 @@ a:hover {
 
 /***************Main css start here***********/
 
-/* top header start here */
-
-.topheader {
-  float: left;
-  width: 100%;
-  min-width: 1140px;
-  padding: 10px 0px;
-  background-color: #eee;
-}
-
-.left_topheader {
-  width: 50%;
-  float: left;
-}
-
-.left_topheader span {
-  font-size: 14px;
-  color: #333;
-}
-
-.left_topheader a {
-  font-size: 14px;
-  color: #333;
-  transition: 0.5s;
-}
-
-.left_topheader a:hover {
-  color: #eaa300;
-}
-
-.right_topheader {
-  width: 50%;
-  float: left;
-}
-
-.top_menu {
-  display: block;
-  text-align: right;
-}
-
-.top_menu li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 8px;
-}
-
-.top_menu li a {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 26px;
-  color: black;
-}
-
-.top_menu li a:hover {
-  color: #eaa300;
-}
-
 /* main header start here */
 
 .mainheader {
@@ -146,7 +89,7 @@ a:hover {
 .menu ul {
   display: block;
   text-align: right;
-  margin-top: 8px;
+  margin-top: 18px;
 }
 
 .menu ul li {
@@ -157,7 +100,7 @@ a:hover {
 
 .menu ul li a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   color: #333;
@@ -167,24 +110,26 @@ a:hover {
 }
 
 .menu ul li a:hover {
-  color: #eaa300;
+  color: #ff0000;
 }
 
 .btndordownload {
   background-color: red;
-  padding: 8px 20px;
+  padding: 8px 17px;
+  border: 1px solid transparent;
 }
 
 .menu ul li a.btndordownload:hover {
-  color: rgb(0, 0, 0);
-  box-shadow: 0px 0px 5px 1px yellow;
+  color: #ff0000;
+  background-color: transparent;
+  border: 1px solid #ff0000;
 }
 
 .menu ul li a::after {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: #eaa300;
+  background-color: red;
   position: absolute;
   left: 0;
   top: calc(100% + 3px);
@@ -746,10 +691,10 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.news-grid-txt a {
+.news-grid-txt .btnbuynow {
   color: #fff;
   background: #26ccca;
-  padding: 8px 20px;
+  padding: 5px 20px;
   border-radius: 50px;
   font-size: 14px;
   font-weight: 300;
@@ -757,6 +702,11 @@ a:hover {
   letter-spacing: 1px;
   text-decoration-line: none;
   transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+}
+.news-grid-txt .btnbuynow:hover {
+  border: 1px solid transparent;
 }
 
 /*Hover-Section*/
@@ -945,8 +895,7 @@ footer {
   width: 100%;
   float: left;
   min-width: 1140px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/battlegrounds.jpg);
+  background-color: #fe1515b4;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -958,7 +907,7 @@ footer {
   font-size: 35px;
   line-height: 45px;
   text-transform: uppercase;
-  color: rgb(223, 201, 201);
+  color: #fff;
 }
 
 .main_content {
@@ -1029,176 +978,89 @@ footer {
   color: #333;
 }
 
-/* -------------grim section design start here0-------------- */
+/* frre hacks */
 
-.download_tool {
+.freehacks {
   width: 100%;
   float: left;
+  padding: 35px 0px;
 }
 
-.inner_download_tool {
+.innerproducts {
   width: 100%;
   float: left;
-  padding: 30px 0px;
+  padding: 35px 0px;
 }
 
-.inner_download_tool h1 {
-  font-size: 30px;
-  color: #333;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-}
-
-.inner_download_tool small {
-  font-size: 17px;
-  color: #333;
-}
-
-.inner_download_tool small .fa {
-  margin-left: 5px;
-}
-
-.downloadtoolimg {
-  width: 100%;
-  height: 400px;
+.productscards {
+  width: 32%;
   float: left;
-  text-align: center;
-  /* border: 2px solid rgb(12, 127, 221); */
-  padding: 10px;
+  background-color: #ffffff;
 }
 
-.downloadtoolimg img {
-  width: 70%;
-  height: 100%;
+.produtcscardmiddle {
+  margin-left: 23px;
 }
 
-.buttondiv {
-  text-align: center;
+.productscardlast {
+  float: right;
+}
+
+.productscardtop {
   width: 100%;
-  float: left;
-  margin-top: 20px;
+  height: 300px;
+  background-color: violet;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.downloadtoolbtn {
-  padding: 15px 31px;
-  background-color: #eaa300;
-  display: inline-block;
-  color: #333;
-  font-weight: 600;
-  border-radius: 15px;
-  border: 1px solid transparent;
+.productscardtop img {
+  width: 100%;
+  height: 300px;
+}
+
+.productscardbot {
+  width: 100%;
+  padding: 20px 15px;
+}
+
+.productscardbot h1 {
+  font-size: 25px;
+  line-height: 35px;
   text-transform: uppercase;
-  transition: 0.5s;
+  color: #333;
+  position: relative;
 }
 
-.downloadtoolbtn:hover {
-  background-color: transparent;
-  border: 1px solid #eaa300;
-}
-
-.downloadtolyt {
-  width: 100%;
-  float: left;
-  height: 400px;
-}
-
-.downloadytleft {
-  width: 70%;
-  float: left;
-}
-
-.downloadytleft iframe {
-  width: 95%;
-  height: 400px;
-}
-
-.downloadytright {
+.productscardbot h1::after {
+  content: "";
+  position: absolute;
   width: 30%;
-  float: left;
+  height: 2px;
+  background-color: #ff0000;
+  left: 0;
+  top: calc(100% + 2px);
 }
 
-.ytsub {
-  width: 100%;
-  float: left;
-  /* padding: 20px; */
-  margin: 10px 0px;
+.productscardbot p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 15px;
 }
 
-.ytsub h1 {
-  font-size: 20px;
-  background-color: #eaa300;
-  padding: 10px 20px;
+.btndownload {
   display: inline-block;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-  border-radius: 10px;
-}
-
-.ytsub ul {
-  display: block;
-}
-
-.ytsub ul li {
-  list-style: none;
-  margin-left: 5px;
-  display: inline-block;
-}
-
-.ytsub ul li a {
-  font-size: 20px;
+  width: max-content;
+  padding: 8px 15px;
+  background-color: transparent;
+  border: 1px solid #ff0000;
   text-transform: uppercase;
-  display: inline-block;
-  padding: 10px 30px;
-  background-color: #c80b0b;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  border: 1px solid transparent;
-  transition: 0.5s;
+  font-weight: 600;
+  color: #ff0000;
+  margin-top: 22px;
 }
 
-.ytsub ul li a:hover {
-  background-color: transparent;
-  border: 1px solid #c80b0b;
-  color: #333;
-}
-
-.flowus {
-  width: 100%;
-  float: left;
-}
-
-.flowus h1 {
-  font-size: 20px;
-  background-color: #eaa300;
-  padding: 10px 20px;
-  display: inline-block;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-  border-radius: 10px;
-}
-
-.flowus ul {
-  display: block;
-}
-
-.flowus ul li {
-  list-style: none;
-  margin-left: 5px;
-  display: inline-block;
-}
-
-.flowus ul li a {
-  display: inline-block;
-  padding: 10px 30px;
-  background-color: #365faf;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  border: 1px solid transparent;
-  transition: 0.5s;
-}
-
-.flowus ul li a:hover {
-  background-color: transparent;
-  border: 1px solid #365faf;
-  color: #333;
+.btndownload:hover {
+  background-color: #ff0000;
+  color: #000000;
 }
