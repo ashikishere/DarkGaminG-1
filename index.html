@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DarkGaminG</title>
+
+  <!-- font awesome here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- main css here -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- owl slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    crossorigin="anonymous" />
+  <!-- jqury cdn here -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 700) {
+          $('.go_top').css({
+            "opacity": "1", "pointer-events": "auto"
+          });
+        } else {
+          $('.go_top').css({
+            "opacity": "0", "pointer-events": "none"
+          });
+        }
+      });
+      $('.go_top').click(function () {
+        $('html').animate({ scrollTop: 0 }, 700);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <span class="go_top"><i class="fa fa-arrow-up"></i></span>
+  <!-- #################header section start here################ -->
+  <header>
+
+    <nav class="mainheader">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="images/hamdi3.gif" alt=""></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a class="active" href="index.html">home</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#products">products</a></li>
+            <li><a href="#freehack">Free Hack</a></li>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a class="btndordownload" href="#products">download</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- #################header section End here################ -->
+
+  <!-- #################baner section start here################ -->
+  <section class="baner">
+    <div class="container">
+      <div class="inner_baner">
+        <!-- <h1>DARK GAMING</h1> -->
+        <h3>Welcome to the Official website of Dark Gaming, <br> the most safest, powerfull and
+          compatible tools ever made.
+        </h3>
+        <hr class="dotted-line">
+        <a class="btnbuynow" href="https://shoppy.gg/@DARKGAMING1/groups/TBuvVmN" target="_blank">Purchase today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- #################baner section end here################ -->
+
+
+  <!-- ################# tutorial section start here################ -->
+  <section class="tutorial">
+    <div class="container">
+
+      <div class="inner_tutorial">
+        <div class="turorial_video">
+          <!-- <video class="video" controls> 
+            <source src="videos/video.mkv">
+          </video> -->
+          <iframe class="video" src="https://www.youtube.com/embed/MUqnGiixQSY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="tutorial_content">
+          <div class="photo-change">
+            <div class="tutorial_conteenttop">
+              <div class="content_item1">
+                <h3 style="color: red;">Status</h3>
+              </div>
+              <div class="content_item2">
+                <p style="color: whitesmoke;"><span style="color: chartreuse;">Undetected</span>/Safe to use</p>
+              </div>
+            </div>
+            <div class="tutorial_conteenttop">
+              <div class="content_item1">
+                <h3 style="color: red;">update</h3>
+              </div>
+              <div class="content_item2">
+                <p style="color: white;">version 1.3.0</p>
+              </div>
+            </div>
+            <div class="tutorial_conteenttop">
+              <div class="content_item1">
+                <h3 style="color: red;">Windows</h3>
+              </div>
+              <div class="content_item2">
+                <p style="color: white;">10,8.1,7</p>
+              </div>
+            </div>
+            <div class="tutorial_conteenttop">
+              <div class="content_item1">
+                <h3 style="color: red;">user reviews</h3>
+              </div>
+              <div class="content_item2">
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                    class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="tutorial_conteentbot">
+            <div class="contentbot_item1">
+              <h4 class="name name1">Subscription for 1 Month <span class="best"> special pack </span></h4>
+            </div>
+            <div class="contentbot_item2">
+              <p class="price">$35</p>
+            </div>
+          </div>
+          <div class="tutorial_conteentbot">
+            <div class="contentbot_item1">
+              <h4 class="name">Subscription for 1 Week </h4>
+            </div>
+
+            <div class="contentbot_item2">
+              <p class="price">$15</p>
+            </div>
+          </div>
+          <div class="tutorial_conteentbot">
+            <div class="contentbot_item1">
+              <h4 class="name">Subscription for 1 Year </h4>
+            </div>
+            <div class="contentbot_item2">
+              <p class="price">$120</p>
+            </div>
+          </div>
+          <div class="tutorial_conteentbot">
+            <div class="contentbot_item1">
+              <h4 class="name">Subscription for lifetime</h4>
+            </div>
+            <div class="contentbot_item2">
+              <p class="price">$200</p>
+            </div>
+          </div>
+          <div class="tutorial_conteentlast">
+            <div class="tutorial_contentlastleft">
+              <div class="contentlastitem1">
+                <a class="btnbuynownew" href="https://shoppy.gg/@DARKGAMING1/groups/SS9KhpW" target="_blank">Buy
+                  now</a><a href="#"><i class="fa fa-shopping-basket"></i></a>
+              </div>
+            </div>
+            <div class="tutorial_contentlastright">
+              <p>Easy payment options like PayPal, Google Pay, PhonePe for Indian users. Pakistan users (EasyPaisa,
+                JazzCash) and Bangladesh Users Bikash</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class=" tutorial_explain">
+        <div class="disocrdapp">
+          <iframe id="discord" src="https://discord.com/widget?id=829639197303635988&theme=dark" width="350"
+            height="500" allowtransparency="true" frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          <!-- <img src="images/imgasepubg.jpg" alt=""> -->
+        </div>
+        <div class="proveds">
+          <h1>Our hack proved <i class="fa fa-arrow-down"></i></h1>
+          <div class="proved_images">
+            <img src="images/ValorantHacks2 (1) (1).PNG" alt=""><br>
+            <img src="images/valorant2.PNG" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ################# tutorial section end here################ -->
+  <!-- ################# features section start here################ -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="titleforallsection">
+        <h1><u>Hack Benefits</u></h1>
+        <p>
+          <span style="color: blue">24/7 Help For You On Discord Server
+        </p>
+      </div>
+      <div class="inner_features">
+        <div class="inneritembox">
+          <div class="innerfeature_item">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br>
+              <!-- <h2><u><span style="color: black">SER</u></h2> -->
+              <p><span>Safe across every emulator like Gameloop, LD, Memu etc.. ! Our custom built
+                  Anti-Ban makes our hack safe on latest English Gameloop where everyone else is unsafe.</p>
+            </div>
+          </div>
+          <div class="innerfeature_item infeaturesitem2">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon2.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br>
+              <!-- <h2><span style="color: black">02</h2> -->
+              <p><span">Our Turbo AOW Engine 7.1 installer will boost your PUBG Mobile performance
+                  to almost twice than before. Feel no stutter or lag when a squad or vehicle pushes towards you !</p>
+            </div>
+          </div>
+        </div>
+        <div class="inneritembox">
+          <div class="innerfeature_item">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br>
+              <!-- <h2><span style="color: black">03</h2> -->
+              <p><spann">This is a custom made Anti-Ban for our customers. It is designed to prevent
+                  constant bans trigged by the anti-cheat system of Tencent..</p>
+            </div>
+          </div>
+          <div class="innerfeature_item infeaturesitem2">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon2.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br>
+              <!-- <h2><span style="color: black">04</h2> -->
+              <p><span>Free dedicated support for being a customer. We have a dedicated
+                  ticket system to help you with any problem at any time..</p>
+            </div>
+          </div>
+        </div>
+        <div class="inneritembox">
+          <div class="innerfeature_item">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br> <br>
+              <!-- <h2><span style="color: black">05</h2> -->
+              <p><span>RANK UP EASILY WITH MAGIC BULLET AND ESP</p>
+            </div>
+          </div>
+          <div class="innerfeature_item infeaturesitem2">
+            <div class="leftfeature_itam">
+              <span class="round">
+                <img src="images/pubgicon2.png" alt="">
+              </span>
+            </div>
+            <div class="rightfeature_itam"> <br>
+              <!-- <h2><span style="color: black">06</h2> -->
+              <p><span>
+                  WINNER WINNER CHICKEN DINNER! with the power of our Magic Bullet and Good ESP. Here are some proofs of
+                  Conquerors achieved with our Tools</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ################# features section end here################ -->
+
+  <!-- ################# features section end here################ -->
+  <!-- ################# our products section start here################ -->
+  <br style="clear: both;">
+  <section class="products">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titleforallsection">
+            <h1>Our products</h1>
+            <p>
+              Our all hack Features is Safe you can use all of this
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="news-slider" class="owl-carousel">
+            <!-- 1 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/valorantmonth.png" alt="">
+                <div class="news-grid-box">
+                  <h1>35</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>MONTH</span>
+                <h2 style="color: red;">VALORANT HACK</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>1856 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i> 5/5</li>
+                </ul>
+                <p>THIS CHEAT HAS NEVER EVER BEEN DETECTED/ HAS BOTH <strong>AIM + ESP</strong> A GOOD LOOKING MENU/VERY ADVANCED AIMBOT, PACKED WITH CUSTOMIZATION/UPDATES EVERY 24H/</p>
+                <a href="https://shoppy.gg/product/mYOOs62" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/valorantweek.png" alt="">
+                <div class="news-grid-box">
+                  <h1>15</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>WEEK</span>
+                <h2 style="color: red;">VALORANT HACK</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i> 2090 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i> 5/4</li>
+                </ul>
+                <p>THIS CHEAT HAS NEVER EVER BEEN DETECTED/ HAS BOTH AIM + ESP AND A GOOD LOOKING MENU/VERY ADVANCED AIMBOT, PACKED WITH CUSTOMIZATION/UPDATES EVERY 24H/</p>
+                <a href="https://shoppy.gg/product/CkeVq72" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/valorant1year.png" alt="">
+                <div class="news-grid-box">
+                  <h1>120</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>Year</span>
+                <h2 style="color: red;">VALORANT HACK</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>1578 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i>5/5</li>
+                </ul>
+                <p>THIS CHEAT HAS NEVER EVER BEEN DETECTED/ HAS BOTH AIM + ESP AND A GOOD LOOKING MENU/VERY ADVANCED AIMBOT, PACKED WITH CUSTOMIZATION/UPDATES EVERY 24H/</p>
+                <a href="https://shoppy.gg/product/Bry2gFv" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/pubgmonth.png" alt="">
+                <div class="news-grid-box">
+                  <h1>35</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>MONTH</span>
+                <h2 style="color: seagreen;">PUBG MOBILE</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i> 10,890 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i> 5/5</li>
+                </ul>
+                <I><HEad>HACK Features</HEad></I>
+                <p>ESP.AIMBOT.MAGIC BULLATE.CAR FLY.CAR TRUCK.GOD VIEW.ITEM ESP.FOV.NO RECOIL.BONE ESP. ETC <br>(ALL Features IS 100% sAFE)</p>
+                <a href="https://shoppy.gg/product/Rrbk3Bk" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/pubgweek.png" alt="">
+                <div class="news-grid-box">
+                  <h1>15</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>WEEK</span>
+                <h2 style="color: seagreen;">PUBG MOBILE</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i> 8570 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i> 5/5</li>
+                </ul>
+                <I><HEad>HACK FUTURE</HEad></I>
+                <p>ESP.AIMBOT.MAGIC BULLATE.CAR FLY.CAR TRUCK.GOD VIEW.ITEM ESP.FOV.NO RECOIL.BONE ESP. ETC <br><br></p>
+                <a href="https://shoppy.gg/product/z8qc5YX" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/pubgyear.png" alt="">
+                <div class="news-grid-box">
+                  <h1>120</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>Year</span>
+                <h2 style="color: seagreen;">PUBG MOBILE</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>11,080 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i> 5/5</li>
+                </ul>
+                <I><HEad>HACK FUTURE</HEad></I>
+                <p>ESP.AIMBOT.MAGIC BULLATE.CAR FLY.CAR TRUCK.GOD VIEW.ITEM ESP.FOV.NO RECOIL.BONE ESP. ETC <br><br></p>
+                <a href="https://shoppy.gg/product/yovJquK" target="_blank">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/csgo.png" alt="">
+                <div class="news-grid-box">
+                  <h1>25</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>MONTH</span>
+                <h2>CS:GO HACK VIP</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>16,989 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i>5/5</li>
+                </ul>
+                <p>The most top-end and highly customizable features are <strong>Aimbot-Wallhack-ESP</strong>.You can see beautiful visual effects, you can also customize them yourself.</p>
+                <a href="https://shoppy.gg/product/TCi3l6A">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/btf.png" alt="">
+                <div class="news-grid-box">
+                  <h1>30</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>MONTH</span>
+                <h2>BATTLEFILED HACK</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>1126 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i>5/4</li>
+                </ul>
+                <I><HEad>HACK Features</HEad></I>
+                <p>Dominate the BF5 game with this hack. Now there are such functions as: aimbot, visuals, radarhack, CROSSHAIR, configs, wallhack etc.</p>
+                <a href="https://shoppy.gg/product/DvFfsvI">BUY NOW</a>
+              </div>
+            </div> -->
+            <!-- 9 -->
+            <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/fivem.png" alt="">
+                <div class="news-grid-box">
+                  <h1>30</h1>
+                  <p>$</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>MONTH</span>
+                <h2>FiveM GTA 5 HACK</h2>
+                <ul>
+                  <li><i class="fa fa-shopping-basket" aria-hidden="true"></i>9630 USER</li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i>5/5</li>
+                </ul>
+                <p> Low probability of getting a ban, a large number of features, as well as hidden guides of money cheat and much more. Full control over the game and players in GTA Online mode & FiveM</p>
+                <a href="https://shoppy.gg/product/MJZbH5h">BUY NOW</a>
+              </div>
+            </div>
+            <!-- 10 -->
+            <!-- <div class="news-grid">
+              <div class="news-grid-image"><img src="images/pphoto/9.jpg" alt="">
+                <div class="news-grid-box">
+                  <h1>28</h1>
+                  <p>Sep</p>
+                </div>
+              </div>
+              <div class="news-grid-txt">
+                <span>Finacne</span>
+                <h2>Heading Will Be Here</h2>
+                <ul>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i> Sep 19, 2020</li>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Admin</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur aspernatur reprehenderit
+                  velit est voluptatum, voluptas amet quasi dicta consectetur.</p>
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> -->
+  </section>
+
+
+  <br style="clear: both;">
+
+  <!-- ################# our products section start here################ -->
+
+  <!-- ################# our link section start here################ -->
+  <section class="linksec">
+    <div class="titleforallsection titlerewrite">
+      <h1>Our social media link</h1>
+      <p>if u guys need any help contact us on social media we will try to help our best <br> <p style="color: red;"> Discord:- <b> DarK-KinG#4463</b></p>
+    </div>
+    <div class="container">
+      <div class="inner_link">
+        <ul>
+          <li class="tooltip"><a href="https://web.facebook.com/BD-Shop-Gaming-101632027990426" target="_blank">
+              <span class="toll toll1">facebook</span>
+              <i class="fa fa-facebook"></i>
+
+            </a></li>
+
+          <li><a href="https://discord.gg/MWn8QPYdCd" target="_blank">
+              <span class="toll">Discord</span>
+              <i class="fab fa-discord"></i>
+
+              <!-- </a></li>
+              <li><a href="#">
+                <span class="toll">Twitter</span>
+                <i class="fa fa-google"></i>
+                
+              </a></li>
+              <li><a href="#">
+                <span class="toll">Twitter</span>
+                <i class="fa fa-instagram"></i> -->
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- ################# our link section end here################ -->
+
+  <!-- fotter section start here -->
+
+  <footer>
+    <div class="footerbot">
+      <p>©2021 All Right Reserved. Designed <span> <i class="fa fa-heart" style="color: red;"></i></span> by <a
+          href="https://web.facebook.com/Hamdi.Godfather" target="_blank">HAMDI</a> &nbsp;<a href="#"></a>Dark-KinG</a></p>
+      <p>We are the most active anti-security system against <strong>BAN</strong>. Be the global top with our tools and support and
+        <strong>RANK-UP</strong>everyone.</p>
+    </div>
+
+
+  </footer>
+  <!-- HAMDI -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v10.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution="setup_tool" page_id="101632027990426">
+  </div>
+  <!-- Owl Crousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    crossorigin="anonymous"></script>
+  <!-- Script-Section -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#news-slider").owlCarousel({
+        items: 3,
+        navigation: true,
+        navigationText: ["", ""],
+        autoPlay: true
+      });
+    });
+  </script>
+</body>
+
+</html>
